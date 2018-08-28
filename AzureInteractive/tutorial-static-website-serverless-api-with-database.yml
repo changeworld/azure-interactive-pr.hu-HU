@@ -1,0 +1,49 @@
+### YamlMime:Tutorial
+title: Kiszolgáló nélküli webalkalmazás létrehozása az Azure-ban
+metadata:
+  title: Kiszolgáló nélküli webalkalmazás létrehozása az Azure-ban | Microsoft Docs
+  description: Ez az oktatóanyag azt ismerteti, hogyan lehet közzétenni egy statikus webalkalmazást, amely az Azure kiszolgáló nélküli összetevőit használja képek feltöltésére, elemzésére és módosítására.
+  audience: Developer
+  level: Intermediate
+  displayType: two-column
+  interactive: azurecli
+  author: ggailey777
+  manager: cfowler
+  ms.service: multiple
+  ms.topic: interactive-tutorial
+  ms.date: 06/22/2018
+  ms.author: glenga
+  ms.openlocfilehash: d0bd4c0b4b1a6995e2d5148a4f49769aee0f4dc7
+  ms.sourcegitcommit: f96b5b10238122db9506f1a7c7f53ace9b28c293
+  ms.translationtype: HT
+  ms.contentlocale: hu-HU
+  ms.lasthandoff: 08/24/2018
+  ms.locfileid: "40079308"
+items:
+- durationInMinutes: 1
+  content: >
+    [!INCLUDE [](./includes/intro.md)]
+- title: Webalkalmazás létrehozása az Azure Blob Storage-ban
+  durationInMinutes: 12
+  content: >
+    [!INCLUDE [](./includes/static-site.md)]
+- title: Képek feltöltése a Blob Storage-ba az Azure Functions használatával
+  durationInMinutes: 20
+  content: "[!INCLUDE [](./includes/upload-images.md)] \n"
+- title: Képek átméretezése az Azure Functions használatával
+  durationInMinutes: 15
+  content: >
+    [!INCLUDE [](includes/resize-images.md)]
+- title: Képek metaadatainak tárolása az Azure Cosmos DB-vel
+  durationInMinutes: 15
+  content: >
+    [!INCLUDE [](includes/store-images.md)]
+- title: Képfeliratok hozzáadása a Computer Vision használatával
+  durationInMinutes: 15
+  content: >
+    [!INCLUDE [](includes/computer-vision.md)]
+- title: Hitelesítés hozzáadása
+  durationInMinutes: 15
+  content: >
+    [!INCLUDE [](includes/authentication.md)]
+- content: '[!INCLUDE [](includes/completed.md)]'
