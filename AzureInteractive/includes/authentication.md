@@ -2,19 +2,19 @@
 title: fájl belefoglalása
 description: fájl belefoglalása
 services: functions
-author: tdykstra
+author: ggailey777
 manager: jeconnoc
 ms.service: multiple
 ms.topic: include
 ms.date: 06/21/2018
-ms.author: tdykstra
+ms.author: glenga
 ms.custom: include file
-ms.openlocfilehash: d1f9a07ce3d3b096b498e48b5c4f68c3454b2b37
-ms.sourcegitcommit: e721422a57e6deb95245135fd9f4f5677c344d93
+ms.openlocfilehash: 426a7287458a48d1bda220ad1a5f067be2ce77d6
+ms.sourcegitcommit: 81587470a181e314242c7a97cd0f91c82d4fe232
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "40079488"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "47460041"
 ---
 Az Azure App Service-hitelesítés lehetővé teszi a kulcsrakész hitelesítéstámogatást az Azure-függvényalkalmazásokban. Zökkenőmentesen integrálható a Facebookkal, a Twitterrel, a Microsoft-fiókkal, a Google-lel és Azure Active Directory alkalmazásokat. Az App Service-hitelesítés hozzáadása a webalkalmazás háttérrendszeri API-k védelmére szolgál.
 
