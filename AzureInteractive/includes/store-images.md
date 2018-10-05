@@ -2,19 +2,19 @@
 title: fájl belefoglalása
 description: fájl belefoglalása
 services: functions
-author: tdykstra
+author: ggailey777
 manager: jeconnoc
 ms.service: multiple
 ms.topic: include
 ms.date: 06/21/2018
-ms.author: tdykstra
+ms.author: glenga
 ms.custom: include file
-ms.openlocfilehash: 2202cdebe77668972372983a0e802d00edabf6dd
-ms.sourcegitcommit: e721422a57e6deb95245135fd9f4f5677c344d93
+ms.openlocfilehash: 194a25dbf9abda80379aa5aab408ac4ffe9ab7f5
+ms.sourcegitcommit: 81587470a181e314242c7a97cd0f91c82d4fe232
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "40079464"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "47460058"
 ---
 Az Azure Cosmos DB a Microsoft kiszolgáló nélküli, globálisan elosztott, többmodelles adatbázis-szolgáltatása. Ebben a modulban elsajátíthatja, hogyan tárolhat és kérhet le képmetaadatokat a Cosmos DB-ben tárolt JSON-dokumentumokban az Azure Functions használatával.
 
@@ -113,7 +113,7 @@ A Cosmos DB kimeneti kötésével dokumentumokat hozhat létre egy Cosmos DB-gy�
 
 ## <a name="create-a-function-to-list-images-from-cosmos-db"></a>Függvény létrehozása a Cosmos DB-ben található képek listázására
 
-A webalkalmazáshoz egy API szükséges, amely lekéri a képek metaadatait a Cosmos DB-ből. A következő lépésekben létrehoz egy HTTP-n aktivált függvényt, amely egy Cosmos DB bemeneti kötéssel kérdezi le az adatbázis-gyűjteményt.
+A webalkalmazáshoz egy API szükséges, amely lekéri a képek metaadatait a Cosmos DB-ből. A következő lépésekben létrehozhat egy HTTP-n aktivált függvényt, amely egy Cosmos DB bemeneti kötéssel kérdezi le az adatbázis-gyűjteményt.
 
 1. A függvényalkalmazásban vigye a mutatót a **Függvények** elem fölé a bal oldalon, és a **+** elemre kattintva hozzon létre egy új függvényt.
 
