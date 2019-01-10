@@ -49,7 +49,7 @@ Az oktatóanyagban létrehozott függvényalkalmazáshoz a Functions futtatókö
 A következő Azure CLI-parancsban az <app_name> a függvényalkalmazás neve.
 
 ```azurecli
-az functionapp config appsettings set --name <function app name> --g first-serverless-app --settings FUNCTIONS_EXTENSION_VERSION=~1
+az functionapp config appsettings set --name <function app name> -g first-serverless-app --settings FUNCTIONS_EXTENSION_VERSION=~1
 ```
 
 ## <a name="create-an-http-triggered-serverless-function"></a>Hozzon létre egy HTTP-eseményindítóval aktivált, kiszolgáló nélküli függvényt
